@@ -1,0 +1,15 @@
+#ServerSwitcher is weather or not this server will be acting as the 'hub' for the servers.
+#This will be placing a server switching feature into the players inventory.
+ServerSwitcher: false
+#Size of inventory must be a multiple of 9. 9,  18, 27.
+InventorySize: 18
+Servers:
+  ExampleServer:
+    DisplayName: Weird Server
+    Server: ActualServerName
+    ItemName: STONE
+    Slot: '0'
+    Lore:
+      - Example
+      - Lore
+      - List

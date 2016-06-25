@@ -1,0 +1,61 @@
+ name: Apollo
+ version: 1.0
+ description: Network utils for the Inerva Network
+
+ author: Edwin Heerschap (kingpulse)
+
+ main: net.inerva.apollo.Apollo
+ database: false
+
+ commands:
+   achat:
+     description: Sends a message to the admin chat.
+     #permission: Apollo.AdminChat
+     usage: Write /achat then your message.
+   findplayer:
+     description: Searches servers running Apollo for a player.
+     #permission: Apollo.FindPlayer
+     usage: Write /Findplayer <player name>
+   server:
+     description: Redirects the player to another server
+     usage: Write /Server <server name>
+   compass:
+     description: Gives you the compass to select a server from the GUI
+     usage: Simply, /Compass
+   staff:
+     description: Sends messages to staff.
+     usage: Write /staff then your message
+   sr:
+     description: Sends a reply from staff chat
+     usage: Write /sr <playername> <message>
+   send:
+     description: Sends a player to a server
+     usage: Write /send <playername> <server>
+   glist:
+     description: Displays a list of Apollo servers with amount of players
+     usage: Write /GList
+   msg:
+     description: Sends a message to another player on the network
+     usage: Write /msg <player> <message>
+   r:
+     description: Replies to your last message
+     usage: Write /r <message>
+   tell:
+     description: Sends message
+     usage: /tell <name> <message>
+   t:
+     description: Sends message
+     usage: /t <name> <message>
+   m:
+     description: Sends message
+     usage: /m <name> <message>
+   w:
+     description: Sends message
+     usage: /w <name> <message>
+ permissions:
+   Apollo.AdminChat:
+     description: Allows access to the admin chat.
+     default: false
+   Apollo.FindPlayer:
+     description: Allows access to the find player command
+     default: false

@@ -1,0 +1,12 @@
+Portals:
+  PortalServerNameExample:
+    RegionID: ExampleRegionID
+    ServerPortal: true
+    ServerName: ExampleServerName
+  PortalWorldNameExample:
+    RegionID: ExampleRegionID
+    ServerPortal: false
+    WorldName: ExampleWorld
+    LocX: 10
+    LocY: 10
+    LocZ: 10
