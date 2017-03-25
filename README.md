@@ -1,14 +1,14 @@
 # Apollo
 
-######Spigot/Bukkit Plugin
+###### Spigot/Bukkit Plugin
 
-##What is Apollo?
+## What is Apollo?
 
-######Apollo is a Spigot/Bukkit plugin aimed to provide useful tools for minecraft servers using lilypad.
+###### Apollo is a Spigot/Bukkit plugin aimed to provide useful tools for minecraft servers using lilypad.
 
-######The features in Apollo work across all servers that have Apollo installed, i.e you can send messages to someone on another server.
+###### The features in Apollo work across all servers that have Apollo installed, i.e you can send messages to someone on another server.
 
-######Features:
+###### Features:
 
 ###### - Admin Chat
 ###### - Staff Support
